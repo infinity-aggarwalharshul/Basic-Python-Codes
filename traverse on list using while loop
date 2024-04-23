@@ -3,7 +3,7 @@
 
 a = [1,4,9,16,25,36,49,64,81,100] #lets take a exmaple list
 i = 0                             #here we taken a value equal to zero
-while i < len(a) :                #in while statement we taken a condition that if i is less than length of list
+while i < len(a) :                #in while loop statement we taken a condition that if i is less than length of list
     print (a[i])                  #print the list with that i varible  #this will be type of execution going here (a[0],a[1],a[2],.....) 
     i += 1                        #increment the list by 1
 

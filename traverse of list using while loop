@@ -1,4 +1,4 @@
-#traverse on list using while loop
+#traverse of list using while loop
 # code by IAH (infinity Aggarwal Harshul)
 
 a = [1,4,9,16,25,36,49,64,81,100] #lets take a exmaple list

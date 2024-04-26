@@ -6,9 +6,9 @@ i = 1                                  #initalize the variable equal to 1
 
 while i <= n:                          #while loop statment is executed every time when the variable is greater than or equal to user input value  
     if i % 2 == 0:                     #if the variable on division remanainder is equal to zero
-        print("Even Number")           #print even number
+        print(i,"Even Number")           #print even number
     else:                              #else if the variable on division remanainder is not equal to zero
-        print("Odd Number")            #print odd number
+        print(i,"Odd Number")            #print odd number
     i += 1                             #increment by varialble by 1
         
   # The ouput will be executed every time when user input value is taken and the variable on division remanainder is

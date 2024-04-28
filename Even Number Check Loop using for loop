@@ -7,4 +7,4 @@ for i  in range(n):                      #while loop statment is executed every 
     if (i%2 == 0):                       #if the variable on division remanainder is equal to zero
         print(i)                        #print even number      
   # The ouput will be executed every time when user input value is taken and the variable on division remanainder is
-  # equal to zero or not equal to zero then it will check that it is (odd number)
+  # equal to zero or not equal to zero then it will check that it is (Even number)

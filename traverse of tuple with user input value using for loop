@@ -1,10 +1,10 @@
-#tranverse of tuple with user input value using for loop
+#traverse of tuple with user input value using for loop
 #code by IAH (Infinity Aggarwal Harshul)
 
 x = int(input("Enter Number : "))   #here we take any user input value
 a = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)   #lets take an example tuple list
 
-for i in range(len(a)):                  # now in for loop we taken a condition if variable is les100s than length of tuple
+for i in range(len(a)):                  # now in for loop we taken a condition if variable is less than length of tuple
     print("Checking :", a[i])
     if a[i] == x :                # lets take one more condition if tuple at any index is equal to user input value
         print("Found At Inx : ",i)  # then print found

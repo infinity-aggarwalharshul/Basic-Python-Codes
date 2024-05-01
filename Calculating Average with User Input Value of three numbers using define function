@@ -1,4 +1,4 @@
-#Calculating Average with User Input Value of three numbers
+#Calculating Average with User Input Value of three numbers using define function
 #Code by IAH(Infinity Aggarwal Harshul) 
 
 a = int(input("Enter the number : "))    #Lets take the input with user input value

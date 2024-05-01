@@ -1,8 +1,8 @@
-#Calculate distance between any two points using the distance formula using define function 
+#Calculate distance between any two points using the distance formula using define function
 # coordinates givem (x,y) and applying in the formula (x,y) = squareroot{(x2-x1)^2 - (y2-y1)^2}
 #Code by IAH (Infinity Aggarwal Harshul)
 
-import math
+import math                                                             #import the math library for mathematical formula execution
 
 a1 = int(input("Enter x coordinate of First Point(Starting) : "))       #Lets take the user input first point starting from point  
 a2 = int(input("Enter y coordinate of Final Point(Ending) : "))         #Lets take the user input final point ending from point

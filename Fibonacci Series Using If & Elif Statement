@@ -4,13 +4,17 @@
 # steadily increasing and series is {F(n) = F(n+1) + F(n+2)} (you can replace n with a simply)
 
 
-a = int(input("Enter Number : "))                   #here we are taking user input value
-b = 0                                               #Lets assign some value 
-c = 1
-a = b+c
-if ((b+c)<=0) :
-    print ("Error")
-elif ((b+c)!=0) :
-    print ("Fibonacci Series :",(b,c,(a+1),(a+2)))                         #here print function will give output according to assigned opertors
+n = int(input("Enter the Number : "))
+a = 0
+b = 1
+c = b
+count = 1
+
+while count <= n:
+	print(c, end=" ")
+	count += 1
+	a,b = b,c
+	c = a + b
+print()                                    #here print function will give output according to assigned opertors
 
 #Now the final output will show the fibonacci series
